@@ -1,4 +1,4 @@
-package com.tree;
+package com.keyin.BST;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -30,10 +30,9 @@ public class TreePrinter
 
         final int maxNumOfLeaves = (int) Math.pow(2, height - 1);
         final int widthOfTree = maxNumOfLeaves * leafWidth + (maxNumOfLeaves - 1) * spacing;
-        final int widthOfSubtree = (widthOfTree - spacing) / 2;
 
-        System.out.println("width of subtree: " + widthOfSubtree);
-        return widthOfSubtree;
+//        System.out.println("width of subtree: " + widthOfSubtree);
+        return (widthOfTree - spacing) / 2;
     }
 
 
@@ -150,8 +149,8 @@ public class TreePrinter
         final List<String> lines = new ArrayList<>();
 
         int level = 0;
-        String nodeLine = "";
-        String connectionLine = "";
+        StringBuilder nodeLine = new StringBuilder();
+        StringBuilder connectionLine = new StringBuilder();
 
         final Queue<Pair<BinaryTreeNode<T>, Integer>> toProcess = new LinkedList<>();
         toProcess.offer(new Pair<>(startNode, 0));
@@ -172,10 +171,10 @@ public class TreePrinter
                 level = nodelevel;
                 lineLength = subtreeWidth(treeHeight - 1 - level);
 
-                lines.add(nodeLine.stripTrailing());
-                lines.add(connectionLine.stripTrailing());
-                nodeLine = "";
-                connectionLine = "";
+                lines.add(nodeLine.toString().stripTrailing());
+                lines.add(connectionLine.toString().stripTrailing());
+                nodeLine = new StringBuilder();
+                connectionLine = new StringBuilder();
 
                 // Indent previous lines to the right
                 for (int i = 0; i < lines.size(); i++)
@@ -184,10 +183,10 @@ public class TreePrinter
                 }
             }
 
-            nodeLine += drawNode(currentNode, lineLength);
-            nodeLine += spacingBetweenNodes(treeHeight, level);
-            connectionLine += drawConnections(currentNode, lineLength);
-            connectionLine += spacingBetweenConnections(treeHeight, level);
+            nodeLine.append(drawNode(currentNode, lineLength));
+            nodeLine.append(spacingBetweenNodes(treeHeight, level));
+            connectionLine.append(drawConnections(currentNode, lineLength));
+            connectionLine.append(spacingBetweenConnections(treeHeight, level));
 
             // Levelorder
             if (currentNode != null)

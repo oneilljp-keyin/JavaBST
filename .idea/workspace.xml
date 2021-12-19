@@ -4,14 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="067951d2-4dfd-4598-b4c4-1f1e993c4af2" name="Changes" comment="" />
+    <list default="true" id="067951d2-4dfd-4598-b4c4-1f1e993c4af2" name="Changes" comment="created some Junit tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/BST/BSTReconstructionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/BST/BinaryTreeNodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/BST/TreePrinterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tree/BSTReconstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/BST/BSTReconstruction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tree/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/BST/BinaryTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tree/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/BST/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tree/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/BST/RestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tree/TreePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/BST/TreePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tree/BSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/BST/BSTTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="22QcIyuVC1altYV39csxs8YSYlp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -24,7 +47,81 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager" selected="JUnit.com.keyin.BST in JavaTreeSprint">
+    <configuration name="com.keyin.BST in JavaTreeSprint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTreeSprint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.BST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin.BST" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Write tests for class BSTReconstruction" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="JavaTreeSprint" />
+      <settings run-config-name="Write tests for class BSTReconstruction" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.keyin.BST.BSTReconstruction" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for class BinaryTreeNode" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
+      <module name="JavaTreeSprint" />
+      <settings run-config-name="Write tests for class BinaryTreeNode" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.keyin.BST.BinaryTreeNode" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for class RestClient" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="JavaTreeSprint" />
+      <settings run-config-name="Write tests for class RestClient" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.keyin.BST.RestClient" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for class TreePrinter" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="JavaTreeSprint" />
+      <settings run-config-name="Write tests for class TreePrinter" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.keyin.BST.TreePrinter" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for method BinaryTreeNode.&lt;init&gt;" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="JavaTreeSprint" />
+      <settings run-config-name="Write tests for method BinaryTreeNode.&lt;init&gt;" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>method</selection-scope>
+        <selected-element key="com.keyin.BST.BinaryTreeNode.&lt;init&gt;:(Ljava/lang/Object;)V" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.keyin.BST in JavaTreeSprint" />
+        <item itemvalue="Diffblue Cover.Write tests for class TreePrinter" />
+        <item itemvalue="Diffblue Cover.Write tests for class RestClient" />
+        <item itemvalue="Diffblue Cover.Write tests for class BSTReconstruction" />
+        <item itemvalue="Diffblue Cover.Write tests for method BinaryTreeNode.&lt;init&gt;" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,10 +132,29 @@
       <option name="presentableId" value="Default" />
       <updated>1639773176952</updated>
       <workItem from="1639773180410" duration="106000" />
+      <workItem from="1639773304660" duration="931000" />
+      <workItem from="1639873303618" duration="170000" />
+      <workItem from="1639873493189" duration="63000" />
+      <workItem from="1639873642488" duration="4048000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created some Junit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="created some Junit tests" />
   </component>
 </project>

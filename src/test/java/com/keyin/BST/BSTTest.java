@@ -1,9 +1,7 @@
-package com.tree;
+package com.keyin.BST;
 
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import java.util.List;
 
 public class BSTTest {
     final int[] input1 = { 1, 2, 3, 4, 5, 6, 7 };
@@ -13,7 +11,7 @@ public class BSTTest {
 
     @Test
     public void duplicatesTest() {
-        Assert.assertTrue(MainMenu.duplicates(input1) == expected1);
-        Assert.assertTrue(MainMenu.duplicates(input2) == expected2);
+        Assertions.assertEquals(MainMenu.duplicates(input1), expected1);
+        Assertions.assertEquals(MainMenu.duplicates(input2), expected2);
     }
 }

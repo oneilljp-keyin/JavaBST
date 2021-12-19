@@ -1,4 +1,4 @@
-package com.tree;
+package com.keyin.BST;
 import java.util.*;
 
 public class BSTReconstruction

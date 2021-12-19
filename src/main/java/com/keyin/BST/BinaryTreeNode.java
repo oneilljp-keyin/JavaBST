@@ -1,4 +1,4 @@
-package com.tree;
+package com.keyin.BST;
 
 public class BinaryTreeNode<T>
 {

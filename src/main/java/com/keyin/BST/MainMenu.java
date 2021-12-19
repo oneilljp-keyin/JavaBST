@@ -1,4 +1,4 @@
-package com.tree;
+package com.keyin.BST;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -14,7 +14,7 @@ public class MainMenu {
         Thread.sleep(1000);
         while(true) {
             // Program
-            int arrayLength = 0;
+            int arrayLength;
             Scanner sc = new Scanner(System.in);
             while(true) {
                 System.out.print("Enter the total number of integers (nodes) that you want in the tree: ");
@@ -55,14 +55,14 @@ public class MainMenu {
             }
             else {
                 System.out.println("Please ensure that there are no duplicate integers.");
-                Thread.sleep(1000);
+//                Thread.sleep(1000);
             }
         }
     }
     // checks integers inputted by user for duplicates
     static boolean duplicates(final int[] integers)
     {
-        Set<Integer> lump = new HashSet<Integer>();
+        Set<Integer> lump = new HashSet<>();
         for (int i : integers)
         {
             if (lump.contains(i)) return true;
